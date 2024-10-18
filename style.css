@@ -1,0 +1,80 @@
+html, body {
+ background-color: black;
+  color: rgb(172,7,111);
+  margin: 2px;
+  margin-bottom:30px;
+  font-family:"Bebas Neue", sansserif;
+  display: block;
+}
+
+header{
+  color:purple;
+  font-size: 80px;
+  border-bottom: solid 2px white;
+  display: 20px;
+  position: relative;
+  margin:20px;
+  padding:0px;
+    font-family:"Danfo", sefif;
+}
+.inicio{
+  background: rgb(21,213,252);
+  margin: 20px;
+  padding:20px;
+  display: flex;
+  border-radius: 80px;
+  box-shadow:2px 5px 5px gray;
+  
+}
+
+p{
+  text-align:justify;
+}
+ 
+.video{
+  margin-ringht:50px;
+}
+.logo{
+  height: 100px;
+  positio:relative;
+  z-index:-1;
+  margin-left:700px;
+}
+
+.batata{
+  margin: 50px;
+  align-content: center;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap:10px;
+}
+
+.clipes img{
+   height: 200px;
+  opacity: 0.5;
+}
+
+.clipes img:houver{
+  opacity: 1.0;
+  border: solid 2px rgb(238,19,57);
+  box-shadow: 2px 4px 4px white;
+}
+
+footer{
+  color:#E91E63C1;
+  align-items: center;
+  background-color: rgba(250,146,250,0.562);
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  height: 2em;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  display:block;
+  margin: 0 auto;
+  padding-left: 450px;
+}
